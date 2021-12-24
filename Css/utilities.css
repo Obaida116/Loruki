@@ -34,7 +34,7 @@
     transform: scale(0.98);
 }
 
-/* Backgrounds & Color buttons */
+/* Backgrounds & buttons color */
 .bg-primary, 
 .btn-primary {
     background-color: var(--primary-color);
@@ -84,6 +84,42 @@
 
 .text-center {
     text-align: center;
+}
+
+/* Text Colors */
+.text-primary {
+    color: var(--primary-color);  
+}
+.text-secondary {
+    color: var(--secondary-color);   
+}
+.text-dark {
+   color: var(--dark-color);  
+}
+.text-light {
+    color: var(--light-color);   
+}
+
+/* Alert */
+.alert {
+    background-color: var(--light-color);
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 15px 0;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+.alert-success {
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.alert-error {
+    background-color: var(--error-color);
+    color: #fff;
 }
 
 .flex {
